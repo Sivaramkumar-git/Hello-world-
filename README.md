@@ -1,2 +1,66 @@
-# Hello-world-
-This is my first git up project 
+ data:text/html;charset=utf-8,
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Sivaramkumar - Java Springboot Microservices Resume</title>
+<style>
+  body { font-family: Arial, sans-serif; margin: 40px; line-height: 1.6; color: #333; }
+  h1, h2 { color: #2c3e50; }
+  .section { margin-bottom: 20px; }
+  .contact, .skills ul, .experience, .education { margin-left: 20px; }
+</style>
+</head>
+<body>
+
+<h1>Sivaramkumar</h1>
+<div class="contact">
+  <p>Phone: 6383756856</p>
+  <p>Role: Java Springboot Microservices Developer</p>
+  <p>Experience: 2 years</p>
+</div>
+
+<div class="section">
+  <h2>Professional Summary</h2>
+  <p>Java Developer with 2 years of experience specializing in Spring Boot microservices architecture. Skilled in building scalable backend solutions, RESTful APIs, and cloud deployment.</p>
+</div>
+
+<div class="section">
+  <h2>Technical Skills</h2>
+  <div class="skills">
+    <ul>
+      <li><strong>Languages:</strong> Java, SQL</li>
+      <li><strong>Frameworks:</strong> Spring Boot, Spring MVC, Spring Data JPA</li>
+      <li><strong>Microservices:</strong> REST APIs, Eureka, Spring Cloud Config, Feign</li>
+      <li><strong>Databases:</strong> MySQL, PostgreSQL, MongoDB</li>
+      <li><strong>Tools:</strong> Git, Maven, Jenkins, Docker</li>
+      <li><strong>Cloud:</strong> AWS (EC2, S3), Heroku</li>
+    </ul>
+  </div>
+</div>
+
+<div class="section">
+  <h2>Professional Experience</h2>
+  <div class="experience">
+    <h3>Java Developer – Tata Consultancy Services</h3>
+    <p><em>June 2022 – Present</em></p>
+    <ul>
+      <li>Developed and maintained microservices-based applications using Spring Boot.</li>
+      <li>Created RESTful APIs and integrated third-party services.</li>
+      <li>Worked on database management with MySQL and MongoDB.</li>
+      <li>Collaborated with cross-functional teams using Agile methodologies.</li>
+      <li>Deployed applications on AWS and managed CI/CD pipelines with Jenkins and Docker.</li>
+    </ul>
+  </div>
+</div>
+
+<div class="section">
+  <h2>Education</h2>
+  <div class="education">
+    <p><strong>Bachelor of Engineering</strong></p>
+  </div>
+</div>
+
+</body>
+</html>
