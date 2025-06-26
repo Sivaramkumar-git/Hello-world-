@@ -1,0 +1,33 @@
+
+window.onload = function () {
+  const select = document.getElementById("studentSelect");
+  for (let id in students) {
+    const option = document.createElement("option");
+    option.value = id;
+    option.text = id;
+    select.appendChild(option);
+  }
+};
+
+// Show details when ID is selected
+function showDetails() {
+  const id = document.getElementById("studentSelect").value;
+  const output = document.getElementById("output");
+
+  if (id === "") {
+    output.innerHTML = "";
+    return;
+  }
+
+  const student = students[id];
+  let html = `<h3>ID: ${id}</h3>`;
+  html += `<p><strong>Name:</strong> ${student.name}</p>`;
+  html += `<p><strong>Grades:</strong></p><ul>`;
+
+  for (let subject in student.grade) {
+    html += `<li>${subject}: ${student.grade[subject]}</li>`;
+  }
+
+  html += `</ul>`;
+  output.innerHTML = html;
+}
