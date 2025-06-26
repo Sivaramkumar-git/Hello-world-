@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Student Grades Viewer</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>Select Student ID</h2>
+
+  <select id="studentSelect" onchange="showDetails()">
+    <option value="">--Select ID--</option>
+    <!-- Options will be filled by JavaScript -->
+  </select>
+
+  <div id="output" style="margin-top: 20px;"></div>
+
+  <!-- Importing JSON-style data and script -->
+  <script src="data.js"></script>
+  <script src="script.js"></script>
+
+</body>
+</html>
